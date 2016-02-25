@@ -1,6 +1,7 @@
 # OpenCVModule
 
 Modulo compilado para la utilizacion de <b>Open CV 3.0</b> para desarrollo en Android dentro del IDE Android Studio.
+<br>
 Module compiled for the use of <b>Open CV 3.0</b> for Android within the Android Studio IDE development.
 
 <h3>Pasos para su uso</h3>
