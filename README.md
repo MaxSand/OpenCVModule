@@ -24,4 +24,16 @@ Module compiled for the use of <b>Open CV 3.0</b> for Android within the Android
       <br>
       <img width=460 height=330 src="http://4.bp.blogspot.com/-PL5tJP1uflU/VayawuvY8KI/AAAAAAAAIFI/FnLvsFmL2uE/s1600/quan404_hinh6_gradle.png">
   <li> <h4>Agregar jniLibs</h4> 
+      <p>Open CV necesita de cietas librerias para poder funcionar correctamente, para evitar problemas futuros agregar las librerias contenidas en la carpeta jniLibs. Mueve la caréta jniLibs dentro de tu proyecto a la direccion:</p>
+      <b>NombreDeTuProyecto/app/src/main</b>
+      <br>
+      <img src="http://2.bp.blogspot.com/-qK12f16p_ow/VayaxYhPjEI/AAAAAAAAIFQ/uU9MZ-bV4TM/s1600/quan404_hinh9_jniLibs.png">
+  <li> <h4>Cargar Open CV</h4>
+      <p>Para cargar las librerias de uso para Open CV en actividades o servicios colocar antes de las funciones y de manera estatica: </p>
+      <br>
+      <b>System.loadLibrary("opencv_java3")</b>
+      <br>
+      <img src="http://4.bp.blogspot.com/-c_wu3s0upW8/Vayavqm9X4I/AAAAAAAAIEs/ee7DrDKf_D4/s1600/quan404_hinh10_systemLoad.png">
 </ol>
+<br>
+<h3><a href="http://www.quan404.com/2015/07/how-to-use-opencv-android-in-android.html">REFERENCIA</a></h3>
